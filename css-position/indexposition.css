@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+/* Posision Fixed */
+/* .container {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: darkorange;
+} */
+
+/* Position Sticky - Elemento fixará na tela quando chegar no ponto definido 
+pela propriedade TOP */
+/* .container {
+  margin-top: 20vh;
+  position: sticky;
+  top: 14px;
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: darkorange;
+} */
+
+/* Position Relative - Relizará o deslocamento do elemento conforme sua posição relativa a ele mesmo 
+nas 4 direções quando usadas TOP, BOTTOM, LEFT, RIGHT*/
+/* .container {
+  position: relative;
+  top: 20%;
+  left: 20%;
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color:greenyellow;
+} */
+
+/* Position Absolute - Relizará o deslocamento/posicionamento do elemento conforme o relativo ao seu elemento hierarquico PAI.
+  O absolute necessita ter na sua hierarquia um elemento como relative, do contário será definido com relação a pagina.
+*/
+/* .container {
+  position: relative;
+  top:45px;
+  left:45px;
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+.box {
+  position: absolute;
+  top:5px;
+  left:5px;
+  width: 200px;
+  height: 200px;
+  /* border-radius: 100%; */
+  background-color:greenyellow;
+} */
